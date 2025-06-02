@@ -1,10 +1,17 @@
 import { Mail, MapPin, Instagram } from "lucide-react";
+
 import minimal_2 from "../assets/Images/Minimal/2.jpg"
 import minimal_3 from "../assets/Images/Minimal/3.jpg"
 import modern_2 from "../assets/Images/Modern/2.jpg"
 import modern_3 from "../assets/Images/Modern/3.jpg"
 import traditional_2 from "../assets/Images/Traditional/2.jpg"
 import traditional_3 from "../assets/Images/Traditional/3.jpg"
+
+import traditional_icon from "../assets/Images/Traditional/traditional_icon.gif_.gif"
+import modern_icon from "../assets/Images/Modern/modern_icon.gif_.gif"
+import minimal_icon from "../assets/Images/Minimal/minimal_icon.gif_.gif"
+import three_d_icon from "../assets/Images/3D/3d_icon.gif_.gif"
+
 
 export const NavLinks_Left = [
     { href: "#", title: "Home" },
@@ -27,10 +34,10 @@ export const imgSrc = [
 
 
 export const services = [
-    { icon: "./src/assets/Images/Traditional/traditional_icon.gif_.gif", title: "Traditioal Design", description: "Where tradition meets craftsmanship and celebrates heritage through rich textures and graceful lines." },
-    { icon: "./src/assets/Images/Modern/modern_icon.gif_.gif", title: "Modern Design", description: "We transform spaces into stunning and personalized environments that inspire and delight." },
-    { icon: "./src/assets/Images/Minimal/minimal_icon.gif_.gif", title: "Minimal Design", description: "Crafting spaces that inspire trust and evoke satisfaction - that's the hallmark of our interior design company." },
-    { icon: "./src/assets/Images/3D/3d_icon.gif_.gif", title: "3D - Representation", description: "It's like the secret sauce that makes your design dreams come to life, all while keeping things practical and safe." }
+    { icon: traditional_icon, title: "Traditioal Design", description: "Where tradition meets craftsmanship and celebrates heritage through rich textures and graceful lines." },
+    { icon: modern_icon, title: "Modern Design", description: "We transform spaces into stunning and personalized environments that inspire and delight." },
+    { icon: minimal_icon, title: "Minimal Design", description: "Crafting spaces that inspire trust and evoke satisfaction - that's the hallmark of our interior design company." },
+    { icon: three_d_icon, title: "3D - Representation", description: "It's like the secret sauce that makes your design dreams come to life, all while keeping things practical and safe." }
 ];
 
 
