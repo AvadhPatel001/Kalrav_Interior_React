@@ -1,16 +1,26 @@
 import { Mail, MapPin, Instagram } from "lucide-react";
 
+import minimal_1 from "../assets/Images/Minimal/1.jpg"
 import minimal_2 from "../assets/Images/Minimal/2.jpg"
 import minimal_3 from "../assets/Images/Minimal/3.jpg"
+
+import modern_1 from "../assets/Images/Modern/1.jpg"
 import modern_2 from "../assets/Images/Modern/2.jpg"
 import modern_3 from "../assets/Images/Modern/3.jpg"
+
+import traditional_1 from "../assets/Images/Traditional/1.jpg"
 import traditional_2 from "../assets/Images/Traditional/2.jpg"
 import traditional_3 from "../assets/Images/Traditional/3.jpg"
+
+import three_d_1 from "../assets/Images/3D/1.jpg"
+import three_d_3 from "../assets/Images/3D/3.jpg"
+
+import three_d_icon from "../assets/Images/3D/3d_icon.gif_.gif"
+
 
 import traditional_icon from "../assets/Images/Traditional/traditional_icon.gif_.gif"
 import modern_icon from "../assets/Images/Modern/modern_icon.gif_.gif"
 import minimal_icon from "../assets/Images/Minimal/minimal_icon.gif_.gif"
-import three_d_icon from "../assets/Images/3D/3d_icon.gif_.gif"
 
 
 export const NavLinks_Left = [
@@ -42,14 +52,14 @@ export const services = [
 
 
 export const displayImgs = [
-    { src: "./src/assets/Images/Minimal/1.jpg", category: "Minimal" },
-    { src: "./src/assets/Images/Minimal/2.jpg", category: "Minimal" },
-    { src: "./src/assets/Images/Modern/1.jpg", category: "Modern" },
-    { src: "./src/assets/Images/Modern/3.jpg", category: "Modern" },
-    { src: "./src/assets/Images/Traditional/1.jpg", category: "Traditional" },
-    { src: "./src/assets/Images/Traditional/2.jpg", category: "Traditional" },
-    { src: "./src/assets/Images/3D/1.jpg", category: "3D" },
-    { src: "./src/assets/Images/3D/3.jpg", category: "3D" },
+    { src: minimal_1, category: "Minimal" },
+    { src: minimal_2, category: "Minimal" },
+    { src: modern_1, category: "Modern" },
+    { src: modern_3, category: "Modern" },
+    { src: traditional_1, category: "Traditional" },
+    { src: traditional_2, category: "Traditional" },
+    { src: three_d_1, category: "3D" },
+    { src: three_d_3, category: "3D" },
 ];
 
 export const vision = {
