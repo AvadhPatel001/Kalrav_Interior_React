@@ -30,13 +30,13 @@ import profile_img from "../assets/Images/Testimonials/profile1.png"
 
 
 export const NavLinks_Left = [
-    { href: "#", title: "Home" },
-    { href: "#", title: "Services" },
+    { href: "#home", title: "Home" },
+    { href: "#services", title: "Services" },
 ]
 
 export const NavLinks_Rigth = [
-    { href: "#", title: "About Us" },
-    { href: "#", title: "Contact" },
+    { href: "#about_us", title: "About Us" },
+    { href: "#contact", title: "Contact" },
 ];
 
 export const imgSrc = [

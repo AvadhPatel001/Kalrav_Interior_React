@@ -36,7 +36,7 @@ const HeroSection = () => {
 
     console.log(imgSrc[0].src)
     return (
-        <div className="mt-10 lg:mt-10 lg:flex lg:space-x-10">
+        <div id="home" className="mt-10 lg:mt-10 lg:flex lg:space-x-10">
             <div className="rounded-md border-2 border-neutral-700 h-110 w-full lg:w-8/12" >
                 <img src={imgSrc[currentImg].src} alt={imgSrc[currentImg].alt} className="w-full h-full rounded-md object-cover object-center" />
 

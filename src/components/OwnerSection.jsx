@@ -3,7 +3,7 @@ import pratik_img from "../assets/Images/pratik.jpg"
 
 const OwnerSection = () => {
   return (
-    <div className="flex flex-wrap justify-evenly gap-10">
+    <div id="about_us" className="flex flex-wrap justify-evenly gap-10">
       <div className="space-y-5">
         <img
           src= {asit_img}

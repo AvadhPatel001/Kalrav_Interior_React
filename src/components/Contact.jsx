@@ -47,8 +47,7 @@ const Contact = () => {
     };
 
     return (
-        <div>
-
+        <div id="contact">
             <div className="flex flex-col lg:flex-row border-2 border-neutral-700 rounded-xl bg-neutral-950 px-5 py-10 ">
 
                 <div className="lg:hidden mb-8">
