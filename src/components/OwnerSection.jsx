@@ -1,9 +1,12 @@
+import asit_img from "../assets/Images/Asit.jpg"
+import pratik_img from "../assets/Images/pratik.jpg"
+
 const OwnerSection = () => {
   return (
     <div className="flex flex-wrap justify-evenly gap-10">
       <div className="space-y-5">
         <img
-          src="./src/assets/Images/Asit.jpg"
+          src= {asit_img}
           alt="Asit Savaliya"
           className="rounded-xl border-2 border-neutral-700 w-50 sm:w-60 lg:w-70" />
 
@@ -15,7 +18,7 @@ const OwnerSection = () => {
 
       <div className="space-y-5">
         <img
-          src="./src/assets/Images/pratik.jpg"
+          src={pratik_img}
           alt="Pratik Savaliya"
           className="rounded-xl border-2 border-neutral-700 w-50 sm:w-60 lg:w-70" />
 
