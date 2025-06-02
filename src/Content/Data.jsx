@@ -62,7 +62,7 @@ export const carrierCollab = [
 ];
 
 export const testimonials = [
-    { name: "Khushal Rangani", profileImg: "./src/assets/Images/Testimonials/profile1.png", address: "-Rajkot, Gujrat", review: "\"We hired KALRAV INTERIOR to redesign our house and were extremely impressed with the outcome. The team provided creative solutions.\"" },
+    { name: "Khushal Rangani", profileImg: "src/assets/Images/Testimonials/profile1.png", address: "-Rajkot, Gujrat", review: "\"We hired KALRAV INTERIOR to redesign our house and were extremely impressed with the outcome. The team provided creative solutions.\"" },
     { name: "Yagnik Bhakhar", profileImg: "./src/assets/Images/Testimonials/profile1.png", address: "-Surat, Gujrat", review: "\"We were incredibly impressed with KALRAV INTERIOR's design expertise and professionalism throughout our home renovation project.\"" }
 ];
 
