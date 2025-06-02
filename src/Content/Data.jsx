@@ -1,5 +1,5 @@
 import { Mail, MapPin, Instagram } from "lucide-react";
-
+import minimal_2 from "../assets/Images/Minimal/2.jpg"
 
 export const NavLinks_Left = [
     { href: "#", title: "Home" },
@@ -12,7 +12,7 @@ export const NavLinks_Rigth = [
 ];
 
 export const imgSrc = [
-    { src: "../src/assets/Images/Minimal/2.jpg", alt: "Minimal 2" },
+    { src: minimal_2, alt: "Minimal 2" },
     { src: "../src/assets/Images/Minimal/3.jpg", alt: "Minimal 3" },
     { src: "../src/assets/Images/Modern/2.jpg", alt: "Modern 2" },
     { src: "../src/assets/Images/Modern/3.jpg", alt: "Modern 3" },
