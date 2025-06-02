@@ -1,5 +1,10 @@
 import { Mail, MapPin, Instagram } from "lucide-react";
 import minimal_2 from "../assets/Images/Minimal/2.jpg"
+import minimal_3 from "../assets/Images/Minimal/3.jpg"
+import modern_2 from "../assets/Images/Modern/2.jpg"
+import modern_3 from "../assets/Images/Modern/3.jpg"
+import traditional_2 from "../assets/Images/Traditional/2.jpg"
+import traditional_3 from "../assets/Images/Traditional/3.jpg"
 
 export const NavLinks_Left = [
     { href: "#", title: "Home" },
@@ -13,11 +18,11 @@ export const NavLinks_Rigth = [
 
 export const imgSrc = [
     { src: minimal_2, alt: "Minimal 2" },
-    { src: "../src/assets/Images/Minimal/3.jpg", alt: "Minimal 3" },
-    { src: "../src/assets/Images/Modern/2.jpg", alt: "Modern 2" },
-    { src: "../src/assets/Images/Modern/3.jpg", alt: "Modern 3" },
-    { src: "../src/assets/Images/Traditional/2.jpg", alt: "Traditional 2" },
-    { src: "../src/assets/Images/Traditional/3.jpg", alt: "Traditional 3" }
+    { src: minimal_3, alt: "Minimal 3" },
+    { src: modern_2, alt: "Modern 2" },
+    { src: modern_3, alt: "Modern 3" },
+    { src: traditional_2, alt: "Traditional 2" },
+    { src: traditional_3, alt: "Traditional 3" }
 ];
 
 
