@@ -16,11 +16,17 @@ import three_d_1 from "../assets/Images/3D/1.jpg"
 import three_d_3 from "../assets/Images/3D/3.jpg"
 
 import three_d_icon from "../assets/Images/3D/3d_icon.gif_.gif"
-
-
 import traditional_icon from "../assets/Images/Traditional/traditional_icon.gif_.gif"
 import modern_icon from "../assets/Images/Modern/modern_icon.gif_.gif"
 import minimal_icon from "../assets/Images/Minimal/minimal_icon.gif_.gif"
+
+import vision_img from "../assets/Images/Vision.jpg"
+import mission_img from "../assets/Images/Mission.jpg"
+
+import ALPHA_TECH from "../assets/Images/colaboration_icon/ALPHA_TECH.png"
+import OFFLINE_CAPTURE from "../assets/Images/colaboration_icon/OFFLINE_CAPTURE_LOGO.png"
+
+import profile_img from "../assets/Images/Testimonials/profile1.png"
 
 
 export const NavLinks_Left = [
@@ -63,7 +69,7 @@ export const displayImgs = [
 ];
 
 export const vision = {
-    src: "../src/assets/Images/Vision.jpg",
+    src: vision_img,
     alt: "Vision Of Kalrav Interior",
     title: "VISION:",
     subtitle: "FROM VISION TO REALITY!",
@@ -71,7 +77,7 @@ export const vision = {
 };
 
 export const mission = {
-    src: "../src/assets/Images/Mission.jpg",
+    src: mission_img,
     alt: "Mission Of Kalrav Interior",
     title: "MISSION:",
     subtitle: "UNLEASH THE AWESOMENESS!",
@@ -79,13 +85,13 @@ export const mission = {
 };
 
 export const carrierCollab = [
-    { name: "AR", src: "../src/assets/Images/colaboration_icon/ALPHA_TECH.png" },
-    { name: "Offline Capture", src: "../src/assets/Images/colaboration_icon/OFFLINE_CAPTURE_LOGO.png" },
+    { name: "AR", src: ALPHA_TECH },
+    { name: "Offline Capture", src: OFFLINE_CAPTURE },
 ];
 
 export const testimonials = [
-    { name: "Khushal Rangani", profileImg: "../src/assets/Images/Testimonials/profile1.png", address: "-Rajkot, Gujrat", review: "\"We hired KALRAV INTERIOR to redesign our house and were extremely impressed with the outcome. The team provided creative solutions.\"" },
-    { name: "Yagnik Bhakhar", profileImg: "../src/assets/Images/Testimonials/profile1.png", address: "-Surat, Gujrat", review: "\"We were incredibly impressed with KALRAV INTERIOR's design expertise and professionalism throughout our home renovation project.\"" }
+    { name: "Khushal Rangani", profileImg: profile_img, address: "-Rajkot, Gujrat", review: "\"We hired KALRAV INTERIOR to redesign our house and were extremely impressed with the outcome. The team provided creative solutions.\"" },
+    { name: "Yagnik Bhakhar", profileImg: profile_img, address: "-Surat, Gujrat", review: "\"We were incredibly impressed with KALRAV INTERIOR's design expertise and professionalism throughout our home renovation project.\"" }
 ];
 
 
