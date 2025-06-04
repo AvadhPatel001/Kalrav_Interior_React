@@ -39,7 +39,7 @@ const App = () => {
           <img
             src={whatsApp_icon}
             alt="WhatsApp Icon"
-            className="w-15 fixed z-50 top-10/12 right-10 hover:scale-105 active:scale-98 brightness-110"
+            className="w-15 fixed z-50 top-11/13 right-10 hover:scale-105 active:scale-98 brightness-110"
           />
         </a>
       </div>

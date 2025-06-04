@@ -12,7 +12,7 @@ const OwnerSection = () => {
 
         <div className="space-y-2">
           <h2 className="font-serif text-xl sm:text-2xl lg:text-3xl font-semibold text-neutral-300 text-center">Asit Savaliya</h2>
-          <p className="text-sm sm:text-md lg:text-xl font-thin text-neutral-400 text-center">Founder & <br />Interior Designer</p>
+          <p className="text-sm sm:text-md lg:text-xl font-normal text-neutral-400 text-center">Founder & <br />Interior Designer</p>
         </div>
       </div>
 
@@ -24,7 +24,7 @@ const OwnerSection = () => {
 
         <div className="space-y-2">
           <h2 className="font-serif text-xl sm:text-2xl lg:text-3xl font-semibold text-neutral-300 text-center">Pratik Savaliya</h2>
-          <p className="text-sm sm:text-md lg:text-xl font-thin text-neutral-400 text-center">CEO & <br />Business Associate</p>
+          <p className="text-sm sm:text-md lg:text-xl font-normal text-neutral-400 text-center">CEO & <br />Business Associate</p>
         </div>
       </div>
     </div>

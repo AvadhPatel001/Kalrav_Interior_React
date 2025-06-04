@@ -56,7 +56,7 @@ const Contact = () => {
                     <p className="text-center italic text-neutral-400">Fill this form and we will contact you!</p>
                 </div>
 
-                <form onSubmit={handleSubmit} className="flex flex-col w-3/5 lg:w-1/3 gap-5 mx-auto mb-5 lg:mb-0">
+                <form onSubmit={handleSubmit} className="flex flex-col w-4/5 lg:w-1/3 gap-5 mx-auto mb-5 lg:mb-0">
 
                     <input
                         name="name"
@@ -106,7 +106,7 @@ const Contact = () => {
 
                     <div className="flex flex-wrap flex-col sm:flex-row items-center lg:flex-row gap-y-5 gap-x-5 lg:gap-x-10 mt-5 justify-evenly">
 
-                        <div className="flex gap-3 w-1/2 sm:w-2/5 lg:w-1/3">
+                        <div className="flex gap-3 w-4/5 sm:w-2/5 lg:w-1/3">
                             <Phone className="w-10 h-10 text-orange-500" />
                             <div>
                                 <h2 className="text-xl text-neutral-300">Call Us</h2>
@@ -115,7 +115,7 @@ const Contact = () => {
                         </div>
 
                         {contactInformation.map((item, index) => (
-                            <div key={index} className="flex gap-3 w-1/2 sm:w-2/5 lg:w-1/3">
+                            <div key={index} className="flex gap-3 w-4/5 sm:w-2/5 lg:w-1/3">
                                 <div className="text-orange-500">
                                     {item.icon}
                                 </div>

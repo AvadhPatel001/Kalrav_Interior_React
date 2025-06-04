@@ -6,7 +6,7 @@ const VisionMission = () => {
             <div className="flex justify-between items-center lg:items-start flex-col lg:flex-row gap-5 lg:gap-10">
                 <div className="lg:hidden space-y-2">
                     <h1 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-neutral-200 text-center lg:text-left">{vision.title}</h1>
-                    <h3 className="text-md sm:text-xl lg:text-2xl text-neutral-300 text-center lg:text-left font-thin">{vision.subtitle}</h3>
+                    <h3 className="text-md sm:text-xl lg:text-2xl text-neutral-300 text-center lg:text-left font-normal">{vision.subtitle}</h3>
                 </div>
 
                 <img
@@ -17,7 +17,7 @@ const VisionMission = () => {
                 <div className="space-y-2">
                     <div className="hidden lg:block space-y-2">
                         <h1 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-neutral-200 text-center lg:text-left">{vision.title}</h1>
-                        <h3 className="text-md sm:text-xl lg:text-2xl text-neutral-300 text-center lg:text-left font-thin">{vision.subtitle}</h3>
+                        <h3 className="text-md sm:text-xl lg:text-2xl text-neutral-300 text-center lg:text-left font-normal">{vision.subtitle}</h3>
                     </div>
                     <p className="text-md text-neutral-400 indent-20 text-justify tracking-wide leading-7 lg:mt-8">{vision.description}</p>
                 </div>
@@ -29,14 +29,14 @@ const VisionMission = () => {
             <div className="flex justify-between items-center lg:items-start flex-col lg:flex-row gap-5 lg:gap-10">
                 <div className="lg:hidden space-y-2">
                     <h1 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-neutral-200 text-center lg:text-left">{mission.title}</h1>
-                    <h3 className="text-md sm:text-xl lg:text-2xl text-neutral-300 text-center lg:text-left font-thin">{mission.subtitle}
+                    <h3 className="text-md sm:text-xl lg:text-2xl text-neutral-300 text-center lg:text-left font-normal">{mission.subtitle}
                     </h3>
                 </div>
 
                 <div className="space-y-2">
                     <div className="hidden lg:block space-y-2">
                         <h1 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-neutral-200 text-center lg:text-left">{mission.title}</h1>
-                        <h3 className="text-md sm:text-xl lg:text-2xl text-neutral-300 text-center lg:text-left font-thin">{mission.subtitle}
+                        <h3 className="text-md sm:text-xl lg:text-2xl text-neutral-300 text-center lg:text-left font-normal">{mission.subtitle}
                         </h3>
                     </div>
                     <p className="hidden lg:block text-md text-neutral-400 indent-20 text-justify tracking-wide leading-7 lg:mt-8">{mission.description}</p>

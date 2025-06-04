@@ -25,7 +25,7 @@ const NavBar = () => {
 
                 {/* Logo */}
                 <div className="flex flex-col items-center">
-                    <img className="w-20 sm:w-30 lg:w-50 py-2" src={logo} alt="Kalrav Interior" />
+                    <img className="w-30 lg:w-50 py-2" src={logo} alt="Kalrav Interior" />
                 </div>
 
                 {/* Right Navbar */}
