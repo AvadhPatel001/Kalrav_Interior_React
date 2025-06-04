@@ -60,7 +60,10 @@ const HeroSection = () => {
                 </h1>
                 <p className="text-md lg:text-left text-neutral-300">{`"`}Goog design is obvious, Great design is transparent.{`"`}</p>
 
-                <button className="mt-10 px-15 py-2 rounded-xl border-2 border-neutral-500 active:scale-98 hover:bg-neutral-600  transition-all">Contact Us</button>
+                <a href="#contact">
+                    <button className="mt-10 px-15 py-2 rounded-xl border-2 border-neutral-500 active:scale-98 hover:bg-neutral-600  transition-all">Contact Us</button>
+                </a>
+
             </div>
         </div>
     )
