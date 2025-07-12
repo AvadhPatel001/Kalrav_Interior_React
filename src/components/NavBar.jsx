@@ -47,9 +47,9 @@ const NavBar = () => {
 
 
             {/* side menu code */}
-            <div className="lg:hidden">
+            {/* <div className="lg:hidden">
                 {openMenu &&
-                    <div className="fixed w-full bg-neutral-800 text-center p-5 space-y-5">
+                    <div className="fixed w-full bg-neutral-800 text-center p-5 space-y-5 transition-all duration-300 ease-out opacity-0 scale-95 animate-fade-in">
                         <ul className="space-y-5">
                             {NavLinks_Left.map((item, index) => (
                                 <li key={index}>
@@ -66,7 +66,40 @@ const NavBar = () => {
                         </ul>
                     </div>
                 }
+            </div> */}
+
+
+            <div className="lg:hidden">
+                <div className={`fixed w-full bg-neutral-800 text-center p-5 space-y-5 transition-all duration-300 ease-in-out transform ${openMenu ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 -translate-y-5 scale-95 pointer-events-none'}`}>
+                    <ul className="space-y-5">
+                        {NavLinks_Left.map((item, index) => (
+                            <li key={index}>
+                                <a
+                                    onClick={toggle}
+                                    className="px-10 text-md text-neutral-300 hover:text-orange-500"
+                                    href={item.href}
+                                >
+                                    {item.title}
+                                </a>
+                            </li>
+                        ))}
+                    </ul>
+                    <ul className="space-y-5">
+                        {NavLinks_Rigth.map((item, index) => (
+                            <li key={index}>
+                                <a
+                                    onClick={toggle}
+                                    className="px-10 text-md text-neutral-300 hover:text-orange-500"
+                                    href={item.href}
+                                >
+                                    {item.title}
+                                </a>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
             </div>
+
         </nav>
 
     )

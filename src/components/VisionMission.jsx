@@ -2,7 +2,7 @@ import { vision, mission } from "../Content/Data"
 
 const VisionMission = () => {
     return (
-        <div className="border-2 border-neutral-700 rounded-xl bg-neutral-950 py-8 px-10 sm:px-15 lg:px-25 space-y-15">
+        <div id="about_us" className="border-2 border-neutral-700 rounded-xl bg-neutral-950 py-8 px-10 sm:px-15 lg:px-25 space-y-15">
             <div className="flex justify-between items-center lg:items-start flex-col lg:flex-row gap-5 lg:gap-10">
                 <div className="lg:hidden space-y-2">
                     <h1 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-neutral-200 text-center lg:text-left">{vision.title}</h1>

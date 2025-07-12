@@ -5,7 +5,6 @@ import FilterMenu from "./components/FilterMenu"
 import Footer from "./components/Footer"
 import HeroSection from "./components/HeroSection"
 import NavBar from "./components/NavBar"
-import OwnerSection from "./components/OwnerSection"
 import Services from "./components/Services"
 import Statistics from "./components/Statistics"
 import Testimonials from "./components/Testimonials"
@@ -24,7 +23,6 @@ const App = () => {
         <AreaOfExpertise />
         <Services />
         <FilterMenu />
-        <OwnerSection />
         <VisionMission />
         <CarrierCollaboration />
         <Testimonials />
