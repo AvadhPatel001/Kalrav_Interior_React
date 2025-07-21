@@ -107,7 +107,7 @@ const Contact = () => {
                     <div className="flex flex-wrap flex-col sm:flex-row items-center lg:flex-row gap-y-5 gap-x-5 lg:gap-x-10 mt-5 justify-evenly">
 
                         <div className="flex gap-3 w-4/5 sm:w-2/5 lg:w-1/3">
-                            <Phone className="w-10 h-10 text-orange-500" />
+                            <Phone className="w-8 h-8 text-orange-500" />
                             <div>
                                 <h2 className="text-xl text-neutral-300">Call Us</h2>
                                 <p className="text-neutral-400">+91 95866 41338 <br />+91 83473 42356</p>

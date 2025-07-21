@@ -11,22 +11,24 @@ const Footer = () => {
                 <div className="flex flex-wrap justify-between gap-10">
 
                     {/* col - 1 */}
-                    <div className="space-y-10">
-                        <img
-                            src={foooter_logo}
-                            alt="Kalrav Interior"
-                            className="w-40 sm:w-45 lg:w-50" />
+                    <div>
+                        <a href="#">
+                            <img
+                                src={foooter_logo}
+                                alt="Kalrav Interior"
+                                className="w-40 sm:w-45 lg:w-50" />
+                        </a>
 
-                        <div className="flex justify-start gap-7 lg:gap-10">
+                        <div className="flex justify-start gap-7 lg:gap-10 mt-8">
                             <a href="https://www.instagram.com/kalrav_interior?igsh=M3NjaXFyOG91dW53" target="_blank">
-                                <Instagram className="w-8 h-8 lg:w-10 lg:h-10 hover:scale-105 active:scale-98" />
+                                <Instagram className="w-8 h-8 hover:scale-105 active:scale-98" />
                             </a>
 
                             <a href={`mailto:${contactInformation[0].contactInfo}`} target="_blank">
-                                <Mail className="w-8 h-8 lg:w-10 lg:h-10 hover:scale-105 active:scale-98" />
+                                <Mail className="w-8 h-8 hover:scale-105 active:scale-98" />
                             </a>
                             <a href="#" onClick={redirectToWhatsApp} target="_blank">
-                                <img src={whatsApp_footer} alt="WhatsApp" className="w-7 lg:w-9 invert hover:scale-105 active:scale-98 " />
+                                <img src={whatsApp_footer} alt="WhatsApp" className="w-7 invert hover:scale-105 active:scale-98 " />
                             </a>
                         </div>
                     </div>
@@ -56,7 +58,7 @@ const Footer = () => {
 
                     <div className="space-y-5 ml-0 lg:ml-20">
                         <div className="flex gap-3 w-full ">
-                            <Phone className="w-10 h-10" />
+                            <Phone className="w-8 h-8" />
                             <div>
                                 <h2 className="text-xl text-neutral-300">Call Us</h2>
                                 <p className="text-neutral-400">+91 95866 41338 <br />+91 83473 42356</p>
@@ -85,7 +87,7 @@ const Footer = () => {
 
 
             {/* Copyright */}
-           <hr className="text-neutral-700 my-3 mx-5 sm:mx-10 lg:mx-20" />
+            <hr className="text-neutral-700 my-3 mx-5 sm:mx-10 lg:mx-20" />
 
             <div className="text-center pb-10">
                 <p className="text-sm">&copy;2025 Kalrav Interior - Designed by <span className="text-neutral-400">Avadh R.</span></p>

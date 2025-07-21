@@ -10,7 +10,7 @@ const FilterMenu = () => {
 
   const filterItems = (categoryItem) => {
     const updateMenu = displayImgs.filter((curElem) => {
-      return curElem.category === categoryItem;
+      return curElem.category === categoryItem; 
     });
     setFilteredImgs(updateMenu);
   }

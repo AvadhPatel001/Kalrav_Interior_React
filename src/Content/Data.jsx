@@ -96,9 +96,9 @@ export const testimonials = [
 
 
 export const contactInformation = [
-    { icon: <Mail className="w-10 h-10" />, title: "Email Us", contactInfo: "kalravinterior@gmail.com" },
-    { icon: <MapPin className="w-10 h-10" />, title: "Address", contactInfo: "Ahmedabad, Gujrat" },
-    { icon: <Instagram className="w-10 h-10" />, title: "Instagram", contactInfo: "@kalrav_interior" },
+    { icon: <Mail className="w-8 h-8" />, title: "Email Us", contactInfo: "kalravinterior@gmail.com" },
+    { icon: <MapPin className="w-8 h-8" />, title: "Address", contactInfo: "Ahmedabad, Gujrat" },
+    { icon: <Instagram className="w-8 h-8" />, title: "Instagram", contactInfo: "@kalrav_interior" },
 ];
 
 
